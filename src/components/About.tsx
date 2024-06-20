@@ -42,30 +42,26 @@ export default function About() {
 
       <div className="max-w-4xl">
         <Paragraph className=" mt-4">
-          Hey there, I&apos;m John Doe - a passionate developer, avid writer,
+          Hey there, I&apos;m  Ankur Sharma - a passionate developer, avid writer,
           and a connoisseur of awesome design. Welcome to my corner of the
           digital world!
         </Paragraph>
         <Paragraph className=" mt-4">
-          Since the early days of my journey, I&apos;ve been captivated by the
-          art of crafting exceptional digital experiences. As a developer, I
-          thrive on turning lines of code into functional and elegant solutions.
-          My goal is to not just create software, but to build digital marvels
-          that seamlessly merge form and function.
-        </Paragraph>
+          Since the early days of my journey, I've been captivated by the art
+          of crafting exceptional digital experiences. As a developer,
+          I thrive on turning lines of code into functional and elegant solutions.
+          My goal is to create extensive and scalable backend systems along with smooth UI</Paragraph>
 
         <Paragraph className=" mt-4">
-          But my journey doesn&apos;t stop at coding. With a heart full of words
-          and a mind brimming with ideas, I&apos;ve ventured into the realm of
-          writing. From tech articles that unravel complex concepts to creative
-          tales that ignite the imagination, I weave words to inform, entertain,
-          and inspire.
+          I know <span className="text-yellow-400">{" "}Typescript and Golang</span> along with technologies like
+          <span className="text-blue-400">{" "}Next js, React js, Express, Gin with databases like Postgress, Mongo db and Redis.
+            I'm also comfortable in GraphQL and TRPC</span>.
         </Paragraph>
         <Paragraph className=" mt-4">
-          What sets me apart is my unwavering appreciation for design. I believe
-          that aesthetics and usability go hand in hand. My eye for awesome
-          design ensures that every project I undertake not only works
-          flawlessly under the hood but also looks stunning on the surface.
+          What sets me apart is my unwavering appreciation for design.
+          I believe that aesthetics and usability go hand in hand.
+          My eye for awesome design ensures that every project I undertake
+          looks stunning on the surface for that I use <span className="text-blue-400">{" "}Tailwind css and Aeternity UI</span>
         </Paragraph>
         <Paragraph className=" mt-4">
           Through this website, I aim to share my insights, experiences, and
@@ -75,14 +71,8 @@ export default function About() {
           here for you.
         </Paragraph>
         <Paragraph className=" mt-4">
-          Join me on this journey of bytes and narratives, logic and creativity,
-          code and prose. Together, we can explore the boundless possibilities
-          of technology and storytelling, all while reveling in the sheer beauty
-          of thoughtful design.
-        </Paragraph>
-        <Paragraph className=" mt-4">
-          Thank you for being here, and I can&apos;t wait to embark on this
-          adventure with you.
+          if you are looking for someone with great backend understanding with experience in creating smooth UI, Hit me up.
+          Thanks for reading this and navigating through my creation.
         </Paragraph>
       </div>
     </div>
