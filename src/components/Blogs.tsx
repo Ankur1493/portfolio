@@ -26,7 +26,8 @@ export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
         >
           <Link
             key={`blog-${blog.title}`}
-            href={`/blog/${blog.slug}`}
+            href={blog.link}
+            target="_blank"
             className="relative my-10 block"
             onMouseEnter={() => setHovered(blog.slug)}
             onMouseLeave={() => setHovered(null)}
@@ -55,12 +56,11 @@ export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
               )}
             </AnimatePresence>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 relative z-20">
-              <Image
+              <img
                 src={blog.image}
                 alt="thumbnail"
                 height="200"
                 width="200"
-                objectFit="cover"
                 className="rounded-md object-cover h-40 w-60"
               />
               <div className="flex flex-col col-span-3">
@@ -70,16 +70,6 @@ export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
                 <Paragraph className="text-sm md:text-sm lg:text-sm mt-2">
                   {blog.description}
                 </Paragraph>
-                <div className="flex space-x-2 flex-wrap mt-4">
-                  {blog.tags?.map((tag) => (
-                    <span
-                      key={`tag-${blog.slug}`}
-                      className="text-xs p-1.5 text-secondary bg-gray-800 rounded-md"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
               </div>
             </div>
           </Link>

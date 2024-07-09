@@ -47,7 +47,7 @@ export default function About() {
           digital world!
         </Paragraph>
         <Paragraph className=" mt-4">
-          Since the early days of my journey, I've been captivated by the art
+          Since the early days of my journey, I have been captivated by the art
           of crafting exceptional digital experiences. As a developer,
           I thrive on turning lines of code into functional and elegant solutions.
           My goal is to create extensive and scalable backend systems along with smooth UI</Paragraph>
@@ -55,7 +55,7 @@ export default function About() {
         <Paragraph className=" mt-4">
           I know <span className="text-yellow-400">{" "}Typescript and Golang</span> along with technologies like
           <span className="text-blue-400">{" "}Next js, React js, Express, Gin with databases like Postgress, Mongo db and Redis.
-            I'm also comfortable in GraphQL and TRPC</span>.
+            I am also comfortable in GraphQL and TRPC</span>.
         </Paragraph>
         <Paragraph className=" mt-4">
           What sets me apart is my unwavering appreciation for design.
