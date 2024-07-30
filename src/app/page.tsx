@@ -4,6 +4,7 @@ import { Highlight } from "@/components/Highlight";
 import { Paragraph } from "@/components/Paragraph";
 import { Products } from "@/components/Products";
 import { TechStack } from "@/components/TechStack";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -18,6 +19,13 @@ export default function Home() {
       <Paragraph className="max-w-xl mt-4">
         I have been building scalable web apps that are performance optimised and stunning design for{" "}
         <Highlight>more than 2 years now</Highlight>
+      </Paragraph>
+      <Paragraph className="max-w-xl mt-4">
+        I am working as an
+        <Highlight className="mx-2">Software Developer Intern</Highlight>
+        at {" "}
+        <Link className="text-sky-600" href="https://0x.day/">0x.day</Link>
+        {" "}from July 2024
       </Paragraph>
       <Heading
         as="h2"
