@@ -1,3 +1,5 @@
+import { ProductLabel } from "@/types/products";
+
 export const products = [
   {
     href: "https://github.com/ankur1493/clan_chat",
@@ -11,7 +13,7 @@ export const products = [
     ],
     stack: ["Nextjs", "Web-sockets", "WebRTC", "Express", "Typescript", "PostgreSQL", "MongoDB", "Redis"],
     slug: "clan_chat",
-    label: "github",
+    label: ProductLabel.Github,
     content: (
       <div>
         <p>
@@ -49,7 +51,7 @@ export const products = [
     stack: ["ReactJs", "Tailwindcss", "Redux Toolkit", "Express", "MongoDB"],
     slug: "algochurn",
 
-    label: "github",
+    label: ProductLabel.Github,
     content: (
       <div>
         <p>
@@ -80,7 +82,7 @@ export const products = [
     stack: ["Nextjs", "Tailwindcss", "Auth.js", "React Charts"],
     slug: "moonbeam",
 
-    label: "livePreview",
+    label: ProductLabel.Live,
     content: (
       <div>
         <p>
