@@ -80,7 +80,7 @@ export const products = [
       "/images/encrypto1.png",
     ],
     stack: ["Nextjs", "Tailwindcss", "Auth.js", "React Charts"],
-    slug: "moonbeam",
+    slug: "encrypto",
 
     label: ProductLabel.Live,
     content: (
