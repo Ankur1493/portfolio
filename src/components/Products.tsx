@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { Heading } from "./Heading";
-import { Product } from "@/types/products";
 import { products } from "@/constants/products";
 import Link from "next/link";
 import Image from "next/image";
@@ -12,7 +11,7 @@ export const Products = () => {
   return (
     <div>
       <div className="grid grid-cols-1  gap-10">
-        {products.map((product: Product, idx: number) => (
+        {products.map((product, idx: number) => (
           <motion.div
             key={product.href}
             initial={{
@@ -50,7 +49,7 @@ export const Products = () => {
                   </Paragraph>
                 </div>
                 <div className="flex space-x-2 md:mb-1 mt-2 md:mt-0">
-                  {product.stack?.map((stack: string) => (
+                  {product.stack?.slice(0, 3).map((stack: string) => (
                     <span
                       key={stack}
                       className="text-xs  md:text-xs lg:text-xs bg-gray-800 px-2 py-1 rounded-md text-secondary"

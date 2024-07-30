@@ -17,7 +17,7 @@ export default function Home() {
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
         I have been building scalable web apps that are performance optimised and stunning design for{" "}
-        <Highlight>more than 3 years now</Highlight>
+        <Highlight>more than 2 years now</Highlight>
       </Paragraph>
       <Heading
         as="h2"

@@ -1,5 +1,5 @@
 "use client";
-import { Product } from "@/types/products";
+import { Product, ProductLabel } from "@/types/products";
 import Image from "next/image";
 import React, { useState } from "react";
 import { Heading } from "./Heading";
@@ -33,7 +33,7 @@ export const SingleProduct = ({ product }: { product: Product }) => {
           width="1000"
           className="rounded-md object-contain"
         />
-        <div className="absolute bottom-0 bg-white h-40 w-full [mask-image:linear-gradient(to_bottom,transparent,white)]" />
+        <div className="absolute bottom-0 bg-white h-16 w-full [mask-image:linear-gradient(to_bottom,transparent,white)]" />
       </motion.div>
       <div className="flex flex-row justify-center my-8 flex-wrap">
         {product.images.map((image, idx) => (
@@ -76,7 +76,7 @@ export const SingleProduct = ({ product }: { product: Product }) => {
         target="__blank"
         className="inline-flex items-center gap-1 group/button rounded-full hover:scale-105 focus:outline-none transition ring-offset-gray-900 bg-gray-800 text-white shadow-lg shadow-black/20 sm:backdrop-blur-sm group-hover/button:bg-gray-50/15 group-hover/button:scale-105 focus-visible:ring-1 focus-visible:ring-offset-2 ring-gray-50/60 text-sm font-medium px-4 py-2 mt-auto origin-left"
       >
-        Live Preview
+        {product?.label === ProductLabel.Github ? "Github" : "Live Preview"}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
