@@ -1,11 +1,3 @@
-## Sidefolio - Portfolio website template
+# Ankur Sharma
 
-As seen on [Aceternity UI](https://ui.aceternity.com/templtes/sidefolio)
-
-## Built with
-- Next.js
-- Tailwindcss
-- Framer motion
-- MDX
-
-Checkout all the templates at [Aceternity UI](https://ui.aceternity.com/templates)
+Hi there, I am Ankur Sharma, this portfolio is customized by me, but the template was originally created by https://x.com/mannupaaji.
