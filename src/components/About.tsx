@@ -53,8 +53,8 @@ export default function About() {
           My goal is to create extensive and scalable backend systems along with smooth UI</Paragraph>
 
         <Paragraph className=" mt-4">
-          I know <span className="text-yellow-400">{" "}Typescript and Golang</span> along with technologies like
-          <span className="text-blue-400">{" "}Next js, React js, Express, Gin with databases like Postgress, Mongo db and Redis.
+          I know <span className="text-yellow-400">{" "}Typescript </span> along with technologies like
+          <span className="text-blue-400">{" "}Next js, React js, Express with databases like Postgress, Mongo db and Redis.
             I am also comfortable in GraphQL and TRPC</span>.
         </Paragraph>
         <Paragraph className=" mt-4">
