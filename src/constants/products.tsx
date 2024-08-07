@@ -49,7 +49,7 @@ export const products = [
       "/images/calenso1.png",
     ],
     stack: ["ReactJs", "Tailwindcss", "Redux Toolkit", "Express", "MongoDB"],
-    slug: "algochurn",
+    slug: "calenso",
 
     label: ProductLabel.Github,
     content: (
