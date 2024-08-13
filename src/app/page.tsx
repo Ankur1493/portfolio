@@ -22,10 +22,16 @@ export default function Home() {
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
         I am working as an
-        <Highlight className="mx-2">Software Developer Intern</Highlight>
+        <Highlight className="mx-2">Software Developer Fellow</Highlight>
         at {" "}
-        <Link className="text-sky-600" href="https://0x.day/">0x.day</Link>
-        {" "}from July 2024
+        <Link className="text-sky-600" target="_blank" href="https://0x.day/">0x.day</Link>
+        {" "}from July 2024,
+      </Paragraph>
+      <Paragraph className="max-w-xl mt-2">
+        and as{" "}
+        <Highlight>Software Engineer Intern</Highlight> at{" "}
+        <Link className="text-sky-600" target="_blank" href="https://www.linkedin.com/company/getdevkit/">Devkit</Link>
+        {" "}from August 2024
       </Paragraph>
       <Heading
         as="h2"
