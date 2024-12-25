@@ -2,6 +2,35 @@ import { ProductLabel } from "@/types/products";
 
 export const products = [
   {
+    href: "https://viewus.in",
+    title: "Viewus",
+    description:
+      "Viewus is a product to collect, manage and showcase testimonials in an easy way",
+    thumbnail: "/images/viewus.png",
+    images: [
+      "/images/viewus.png",
+      "/images/viewus2.png",
+    ],
+    stack: ["Nextjs", "FFMPEG", "AWS", "Express", "Typescript", "PostgreSQL", "MongoDB", "Redis"],
+    slug: "viewus",
+    label: ProductLabel.Live,
+    content: (
+      <div>
+        <p>
+          ViewUs helps you seamlessly collect and manage customer testimonials.No Developers, No complex setup.
+          {" "}
+        </p>
+        <p>
+          Key aspects of the project include:
+          Proper Access: Implemented Access based authentication for users to manage spaces.
+          Collect testimonials: you can collect testimonials in 2-3 simple clicks.
+          System Architecture: Designing a multi-server setup to manage different aspects of the application:
+          Next.js Application: Handling authentication and user flow.
+        </p>{" "}
+      </div>
+    ),
+  },
+  {
     href: "https://github.com/ankur1493/clan_chat",
     title: "Clan Chat",
     description:
