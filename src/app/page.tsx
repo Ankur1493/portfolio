@@ -24,7 +24,7 @@ export default function Home() {
         I am working as a
         <Highlight className="mx-2">Software Developer Intern</Highlight>
         at {" "}
-        <Link className="text-sky-600" target="_blank" href="https://0x.day/">Autocrud</Link>
+        <Link className="text-sky-600" target="_blank" href="https://autocrud.com/">Autocrud</Link>
         {" "}from Dec 2024,
       </Paragraph>
       <Paragraph className="max-w-xl mt-2">
